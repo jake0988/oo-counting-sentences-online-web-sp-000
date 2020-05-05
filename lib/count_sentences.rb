@@ -21,7 +21,7 @@ class String
     count
   else
   array <<  self.split(". " || " .")
-  binding.pry
+  # binding.pry
   array << self.split("! " || " !")
   array << self.split(" ?" || "? ")
   array << self.split("...")
