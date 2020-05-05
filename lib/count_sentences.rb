@@ -23,7 +23,7 @@ class String
     array = self
 
   b = array.split(/[!]|[?]|[...]|[.]/)
-    array.each do |i|
+    b.each do |i|
     count += 1
     end
     # puts "Count is: " + count
