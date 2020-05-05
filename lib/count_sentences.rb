@@ -16,12 +16,14 @@ class String
 
   def count_sentences
   array = []
+  count = 0
+  if self == ""
+    count
+  else
   array <<  self.split(". " || " .")
   binding.pry
   array << self.split("! " || " !")
   array << self.split(" ?" || "? ")
-   count = 0
-   if array.length != 1
     array.each do |i|
     count += 1
     # binding.pry
