@@ -22,9 +22,9 @@ class String
   else
   array =  self.split(/.../)
   array = self.split(".")
-  binding.pry
   array = self.split("!")
   array = self.split("?")
+  binding.pry
     array.each do |i|
     count += 1
     end
