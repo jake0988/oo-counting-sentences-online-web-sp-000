@@ -21,7 +21,7 @@ class String
     count
   else
     array = []
-    array << self
+    array = self
 
   array.split(".")
   array.split("!")
