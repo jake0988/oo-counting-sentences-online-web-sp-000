@@ -20,13 +20,13 @@ class String
   if self == ""
     count
   else
+    if self.(/.../)
+      count = 1
+    end    
   array <<  self.split(". " || " .")
   # binding.pry
   array << self.split("! " || " !")
-  array << self.split(" ?" || "? ")
-  if self.(/.../)
-    count = 1
-  end
+  array << self.split(" ?" || "? "
     array.each do |i|
     count += 1
     #  binding.pry
