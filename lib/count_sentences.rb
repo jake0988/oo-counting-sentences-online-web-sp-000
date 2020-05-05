@@ -23,7 +23,8 @@ class String
   if self.include?(/[...]/)
     count += 1
     self = self - "..."
-  b = array.split(/[!]|[?]|[...]|[.]/)
+  end
+  b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
       # binding.pry
     count += 1
