@@ -20,7 +20,7 @@ class String
   if self == ""
     count
   else
-    if self.(/.../)
+    if (/.../)
       count = 1
     end
   array <<  self.split(". " || " .")
