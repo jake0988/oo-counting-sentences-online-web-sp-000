@@ -25,7 +25,6 @@ class String
     array.each do |i|
     count += 1
     # binding.pry
-    if
     end
     puts "Count is: " + count
   end
