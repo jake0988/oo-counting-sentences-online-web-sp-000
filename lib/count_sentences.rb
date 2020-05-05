@@ -16,7 +16,7 @@ class String
 
   def count_sentences
   array = []
-  array <<  self.split(".")
+  array <<  self.split("."+(/\W/) || (/\W/) + ".")
   # binding.pry
   array << self.split("!")
   array << self.split("?")
@@ -25,6 +25,7 @@ class String
     array.each do |i|
     count += 1
     # binding.pry
+    if
     end
     puts "Count is: " + count
   end
