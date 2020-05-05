@@ -21,9 +21,10 @@ class String
     count
   else
     array = self
-
   b = array.split(/[!]|[?]|[...]|[.]/)
     b.each do |i|
+      if b == "..."
+        count -= 1
     count += 1
     end
     # puts "Count is: " + count
