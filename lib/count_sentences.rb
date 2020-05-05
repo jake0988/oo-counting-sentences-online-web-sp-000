@@ -26,7 +26,7 @@ class String
   #   array = array[0...-3]
   #   # binding.pry
   # end
-  array.sub("...", ",")
+  array.sub("...", "")
   array.sub("!!", "!")
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
