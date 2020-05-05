@@ -22,13 +22,13 @@ class String
     array = self
   if array.include?("...")
     count += 1
-    binding.pry
+    # binding.pry
     array = array[0...-3]
-    binding.pry
+    # binding.pry
   end
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
-    binding.pry
+    # binding.pry
     count += 1
     end
     # puts "Count is: " + count
