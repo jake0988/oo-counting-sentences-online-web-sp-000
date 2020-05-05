@@ -22,7 +22,7 @@ class String
   else
   array <<  self.split(/.../)
   array <<  self.split(".")
-  # binding.pry
+  binding.pry
   array << self.split("!")
   array << self.split("?")
     array.each do |i|
