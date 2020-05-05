@@ -20,7 +20,7 @@ class String
     count
   else
     array = self
-  if array.find(/\.../)
+  if array.match(/^.../)
     count += 1
     array = array - "..."
   end
