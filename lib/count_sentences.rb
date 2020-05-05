@@ -20,7 +20,8 @@ class String
   if self == ""
     count
   else
-    array = self
+    array = []
+    array << self
 
   array.split(".")
   array.split("!")
