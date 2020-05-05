@@ -26,7 +26,7 @@ class String
   array.split("!")
   binding.pry
   array.split("?")
-end
+
     array.each do |i|
     count += 1
     end
