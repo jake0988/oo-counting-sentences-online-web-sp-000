@@ -24,9 +24,6 @@ class String
   b = array.split(/[!]|[?]|[...]||[.]/)
     b.each do |i|
       binding.pry
-      if i == "..."
-        count -= 1
-      end
     count += 1
     end
     # puts "Count is: " + count
