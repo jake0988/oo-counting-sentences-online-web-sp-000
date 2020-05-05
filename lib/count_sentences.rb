@@ -29,7 +29,7 @@ elsif array(/!/)
 
   array = array.split("!")
     binding.pry
-  elsif array(/?/)
+  elsif array("?")
 
   array = array.split("?")
 end
