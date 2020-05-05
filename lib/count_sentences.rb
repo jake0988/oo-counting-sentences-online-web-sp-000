@@ -23,8 +23,8 @@ class String
   array <<  self.split(/.../)
   array <<  self.split(".")
   # binding.pry
-  array << self.split("!)
-  array << self.split("?)
+  array << self.split("!")
+  array << self.split("?"")
     array.each do |i|
     count += 1
     end
