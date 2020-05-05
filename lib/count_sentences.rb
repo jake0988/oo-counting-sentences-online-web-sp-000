@@ -22,7 +22,7 @@ class String
     array = self
   if array.match(/\.../)
     count += 1
-    array = array[...-3]
+    array = array[0...-3]
   end
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
