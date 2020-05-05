@@ -22,7 +22,7 @@ class String
     array = self
   if array.include?(/[...]/)
     count += 1
-    array = self - "..."
+    array = array - "..."
   end
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
