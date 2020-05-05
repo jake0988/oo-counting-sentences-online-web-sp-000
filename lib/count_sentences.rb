@@ -21,12 +21,11 @@ class String
     count
   else
     array = self
-  # array = array.split(/.../)
-  array.collect do |a|
-  array = array.split(".")
-  array = array.split("!")
 
-  array = array.split("?")
+  array.split(".")
+  array.split("!")
+  binding.pry
+  array.split("?")
 end
     array.each do |i|
     count += 1
