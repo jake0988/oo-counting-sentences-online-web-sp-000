@@ -16,7 +16,7 @@ class String
 
   def count_sentences
   array = []
-  array <<  self.split("."+(/\W/) || (/\W/) + ".")
+  array <<  self.split("." + (/\W/) || (/\W/) + ".")
   # binding.pry
   array << self.split("!")
   array << self.split("?")
