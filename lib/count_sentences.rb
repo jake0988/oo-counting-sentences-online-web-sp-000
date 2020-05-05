@@ -22,7 +22,7 @@ class String
   else
     array = self
   # array = array.split(/.../)
-  array do |a|
+  array.collect do |a|
   array = array.split(".")
   array = array.split("!")
 
