@@ -22,14 +22,9 @@ class String
   else
     array = self
   # array = array.split(/.../)
-  if array.(/./)
+  array do |a|
   array = array.split(".")
-elsif array(/!/)
-
-
   array = array.split("!")
-    binding.pry
-  elsif array("?")
 
   array = array.split("?")
 end
