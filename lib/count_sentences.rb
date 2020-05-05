@@ -26,7 +26,7 @@ class String
   b = array.split(/\W/^/.../)
   binding.pry
   c = array.split("?")
-  d = array.split(/\S../S\)
+  d = array.split(/\S..\S/)
 
     array.each do |i|
     count += 1
