@@ -16,7 +16,7 @@ class String
 
   def count_sentences
   array = []
-  count = 0
+  count = -1
   if self == ""
     count
   else
