@@ -23,11 +23,11 @@ class String
     array = self
 
   a = array.split(".")
-  b = array.split("!")
+  b = array.split(/\w/)
   binding.pry
   c = array.split("?")
   d = array.split("...")
-  
+
     array.each do |i|
     count += 1
     end
