@@ -28,9 +28,10 @@ class String
   # end
   array.sub("...", ".")
   array.sub("!!", "!")
+  binding.pry
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
-    binding.pry
+    
     count += 1
     end
     # puts "Count is: " + count
