@@ -26,6 +26,7 @@ class String
   array << self.split(" ?" || "? ")
   if (/.../)
     count += 1
+  end
     array.each do |i|
     count += 1
      binding.pry
