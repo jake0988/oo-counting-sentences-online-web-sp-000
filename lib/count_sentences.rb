@@ -22,13 +22,7 @@ class String
   else
     array = self
 
-  a = array.split(".")
   b = array.split(/[!]|[?]|[...]|[.]/)
-  c = a | b
-  binding.pry
-  # c = array.split("?")
-  # d = array.split(/\S..\S/)
-
     array.each do |i|
     count += 1
     end
