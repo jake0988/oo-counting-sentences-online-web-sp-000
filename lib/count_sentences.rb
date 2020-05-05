@@ -21,7 +21,7 @@ class String
     count
   else
     array = self
-  b = array.split(/[!]|[?]|[...]||[.]/)
+  b = array.split(/[!]|[?]|[...]|[.]/)
     b.each do |i|
       binding.pry
     count += 1
