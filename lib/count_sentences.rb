@@ -31,7 +31,7 @@ class String
   binding.pry
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
-    
+
     count += 1
     end
     # puts "Count is: " + count
