@@ -24,8 +24,8 @@ class String
   # binding.pry
   array << self.split("! " || " !")
   array << self.split(" ?" || "? ")
-  if self(/.../)
-    count += 1
+  if self.(/.../)
+    count = 1
   end
     array.each do |i|
     count += 1
