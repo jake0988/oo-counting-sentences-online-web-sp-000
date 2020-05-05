@@ -20,14 +20,13 @@ class String
   if self == ""
     count
   else
-    array = []
     array = self
 
-  array.split(".")
-  array.split("!")
+  a = array.split(".")
+  b = array.split("!")
   binding.pry
-  array.split("?")
-
+  c = array.split("?")
+  d = array.split("...")
     array.each do |i|
     count += 1
     end
