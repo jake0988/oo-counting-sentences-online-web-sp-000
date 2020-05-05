@@ -24,9 +24,10 @@ class String
 
   a = array.split(".")
   b = array.split(/\W/)
+  c = a | b
   binding.pry
-  c = array.split("?")
-  d = array.split(/\S..\S/)
+  # c = array.split("?")
+  # d = array.split(/\S..\S/)
 
     array.each do |i|
     count += 1
