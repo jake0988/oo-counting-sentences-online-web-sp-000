@@ -22,7 +22,9 @@ class String
     array = self
   if array.include?("...")
     count += 1
+    binding.pry
     array = array[0...-3]
+    binding.pry
   end
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
