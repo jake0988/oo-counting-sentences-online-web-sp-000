@@ -32,7 +32,7 @@ elsif array(/!/)
   elsif array(/?/)
 
   array = array.split("?")
-  en
+end
     array.each do |i|
     count += 1
     end
