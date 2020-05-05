@@ -23,8 +23,8 @@ class String
     array = self
   # array = array.split(/.../)
   array = array.split(".")
-  binding.pry
   array = array.split("!")
+    binding.pry
   array = array.split("?")
     array.each do |i|
     count += 1
