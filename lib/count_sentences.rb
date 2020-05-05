@@ -21,9 +21,8 @@ class String
     count
   else
     array = self
-  array = array.split(/.../)
+  # array = array.split(/.../)
   array = array.split(".")
-  binding.pry
   array = array.split("!")
   array = array.split("?")
     array.each do |i|
