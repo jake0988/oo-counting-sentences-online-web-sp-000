@@ -20,12 +20,14 @@ class String
     count
   else
     array = self
-  if array.include?("...")
-    count += 1
-    # binding.pry
-    array = array[0...-3]
-    # binding.pry
-  end
+  # if array.include?("...")
+  #   count += 1
+  #   # binding.pry
+  #   array = array[0...-3]
+  #   # binding.pry
+  # end
+  array.sub("...", ",")
+  array.sub("!!", "!")
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
     # binding.pry
