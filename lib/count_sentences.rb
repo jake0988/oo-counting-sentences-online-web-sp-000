@@ -20,7 +20,7 @@ class String
   if self == ""
     count
   else
-  array <<  self.split(".")
+  array <<  self.split(".>>")
   array <<  self.split(". " || " .")
   # binding.pry
   array << self.split("! " || " !")
