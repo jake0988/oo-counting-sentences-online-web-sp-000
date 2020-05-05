@@ -20,9 +20,9 @@ class String
     count
   else
     array = self
-  if self.include?(/[...]/)
+  if array.include?(/[...]/)
     count += 1
-    self = self - "..."
+    array = self - "..."
   end
   b = array.split(/[!]|[?]|[.]/)
     b.each do |i|
