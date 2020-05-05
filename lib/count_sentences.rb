@@ -23,7 +23,7 @@ class String
     array = self
 
   a = array.split(".")
-  b = array.split(/\W/)
+  b = array.split(/\W/^/.../)
   binding.pry
   c = array.split("?")
   d = array.split("...")
