@@ -23,7 +23,7 @@ class String
     array = self
   b = array.split(/[!]|[?]|[...]|[.]/)
     b.each do |i|
-      if b == "..."
+      if i == "..."
         count -= 1
       end
     count += 1
