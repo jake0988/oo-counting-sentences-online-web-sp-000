@@ -25,10 +25,7 @@ class String
     count += 1
     binding.pry
     end
+    puts "Count is: " count
     count
-
-
-
-    puts "Count is: "
   end
 end
