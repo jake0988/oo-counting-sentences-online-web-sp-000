@@ -27,6 +27,7 @@ class String
   binding.pry
   c = array.split("?")
   d = array.split("...")
+  
     array.each do |i|
     count += 1
     end
