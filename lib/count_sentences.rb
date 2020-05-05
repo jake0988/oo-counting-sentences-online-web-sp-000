@@ -23,6 +23,7 @@ class String
    count = 0
     array.each do |i|
     count += 1
+    binding.pry
     end
     count
 
