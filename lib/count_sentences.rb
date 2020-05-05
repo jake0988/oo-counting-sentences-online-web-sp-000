@@ -25,6 +25,7 @@ class String
     b.each do |i|
       if b == "..."
         count -= 1
+      end
     count += 1
     end
     # puts "Count is: " + count
