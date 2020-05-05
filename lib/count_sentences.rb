@@ -24,6 +24,7 @@ class String
   binding.pry
   array << self.split("! " || " !")
   array << self.split(" ?" || "? ")
+  array << self.split("...")
     array.each do |i|
     count += 1
     # binding.pry
