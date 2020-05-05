@@ -27,7 +27,6 @@ class String
   array << self.split(" ?" || "? ")
     array.each do |i|
     count += 1
-      binding.pry
     end
     # puts "Count is: " + count
   end
