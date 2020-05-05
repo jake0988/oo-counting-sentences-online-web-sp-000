@@ -21,10 +21,10 @@ class String
     count
   else
   array <<  self.split(/.../)
-  array <<  self.split(". " || " .")
+  array <<  self.split(".")
   # binding.pry
-  array << self.split("! " || " !")
-  array << self.split(" ?" || "? ")
+  array << self.split("!)
+  array << self.split("?)
     array.each do |i|
     count += 1
     end
