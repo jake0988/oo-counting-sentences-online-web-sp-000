@@ -21,11 +21,13 @@ class String
   array << self.split("!")
   array << self.split("?")
    count = 0
+   if array.length != 1
     array.each do |i|
     count += 1
     # binding.pry
     end
-    # puts "Count is: " count
+    puts "Count is: " + count
+  end
     count
   end
 end
