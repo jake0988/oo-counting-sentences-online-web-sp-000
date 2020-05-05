@@ -23,7 +23,7 @@ class String
     array = self
 
   a = array.split(".")
-  b = array.split(/[!][?][...][.]/)
+  b = array.split(/[!]|[?]|[...]|[.]/)
   c = a | b
   binding.pry
   # c = array.split("?")
