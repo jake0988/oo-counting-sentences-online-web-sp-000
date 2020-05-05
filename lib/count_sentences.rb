@@ -20,6 +20,9 @@ class String
     count
   else
     array = self
+  if self.include?(/[...]/)
+    count += 1
+    self = self - "..."
   b = array.split(/[!]|[?]|[...]|[.]/)
     b.each do |i|
       # binding.pry
